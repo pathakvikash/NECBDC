@@ -1,11 +1,12 @@
 import Image from "next/image";
 import Slider from "react-slick";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
-import bannerImgOne from "../public/images/bannerImgOne.jpg";
-import bannerImgTwo from "../public/images/bannerImgTwo.jpg";
-import bannerImgThree from "../public/images/bannerImgThree.jpg";
-import bannerImgFour from "../public/images/bannerImgFour.jpg";
-
+// import bannerImgOne from "../public/images/bannerImgOne.jpg";
+// import bannerImgTwo from "../public/images/bannerImgTwo.jpg";
+// import bannerImgThree from "../public/images/bannerImgThree.jpg";
+// import bannerImgFour from "../public/images/bannerImgFour.jpg";
+import home from '../public/images/home.png';
+  
 function SampleNextArrow(props: any) {
   const { onClick } = props;
   return (
@@ -66,7 +67,7 @@ const Banner = () => {
         <div>
           <Image
             className="w-full h-auto md:h-[650px] object-cover"
-            src={bannerImgOne}
+            src={home}
             loading={"eager"}
             alt="bannerImgOne"
           />
@@ -74,7 +75,8 @@ const Banner = () => {
         <div>
           <Image
             className="w-full h-auto md:h-[650px] object-cover"
-            src={bannerImgTwo}
+            src={home}
+
             loading={"lazy"}
             alt="bannerImgTwo"
           />
@@ -82,7 +84,8 @@ const Banner = () => {
         <div>
           <Image
             className="w-full h-auto md:h-[650px] object-cover"
-            src={bannerImgThree}
+            src={home}
+
             loading={"lazy"}
             alt="bannerImgThree"
           />
@@ -90,7 +93,8 @@ const Banner = () => {
         <div>
           <Image
             className="w-full h-auto md:h-[650px] object-cover"
-            src={bannerImgFour}
+            src={home}
+
             loading={"lazy"}
             alt="bannerImgFour"
           />
